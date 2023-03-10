@@ -1,0 +1,86 @@
+html{
+  background-color: #d9d9d9;
+}
+.header{
+  height: 100vh;
+  background-image: url(/imagens/fundo.jpg);
+  background-position: center;
+  background-size: cover;
+  display: grid;
+  padding: 1rem;
+  color: rgb(50, 50, 50);
+}
+.titulo{
+  font-size: 5rem;
+  font-weight: 900;
+  color: white;
+  text-shadow: 1px 1px 1px black;
+  display: flex;
+  align-items: center;
+}
+.navc{
+  display: flex;
+  align-items: flex-end;
+  justify-content: start;
+}
+.lista{
+  display: flex;
+  align-items: flex-start;
+}
+.item{
+  margin: 0.5rem;
+}
+.item a {
+  color: rgb(145, 43, 43) ;
+  transition: 1s;
+}
+.item a:hover{
+  color: white;
+}
+.item a span{
+  font-size: 2.5rem;
+}
+.picture{
+  display: flex;
+  justify-content: center;
+  margin: 1rem;
+  padding: 1rem;
+}
+.image{
+  width: 15%;
+  height: 25vh;
+  border: 1rem solid rgb(0,100,100) ;
+  border-radius: 50%;
+}
+h2{
+  font-size: 2rem;
+  padding: 1rem;
+  text-align: center;
+  color: rgb(0, 100, 100);
+}
+.paragrafo{
+  font-size:1.1rem ;
+  line-height: 1.3rem;
+  margin: 0.5rem 1rem;
+  text-align: justify;
+}
+.conts{
+  font-size:1.1rem ;
+  line-height: 1.3rem;
+  margin: 0.5rem 1rem;
+  text-align: center;
+}
+.top {
+  margin: 0.5rem;
+  padding: 0.5rem;
+  background-image: linear-gradient(to right, rgba(0,100,100,0), rgba(0,100,100,0.75));
+  border-radius:0.5rem;
+  text-align: right;
+}
+.toplink{
+  color: white;
+  transition: 1s;
+}
+.toplink:hover{
+  color: orangered;
+}
